@@ -25,13 +25,13 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 - [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
+> Answer: Routing between views is fasting and smooth transitions between views is easier to implement.
 - [ ] What does AJAX stand for?
-> Answer:
+> Answer: Asychronous Javascript and XML
 - [ ] What are `controlled components` in React?
-> Answer:
+> Answer: Like an input form whose values are controlled by react. You can want any changes you see on the site to be there because of react wants them there. Any UI should be there because you want it there. 
 - [ ] Name three tools/libraries for making AJAX requests.
-> Answer:
+> Answer: axios, fetch, request
 
 
 ## Project Set Up
