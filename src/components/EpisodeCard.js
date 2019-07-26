@@ -4,9 +4,13 @@ import styled from "styled-components";
 const EpisodeDiv = styled.div`
 display: flex;
 flex-direction: column;
-border: 1px solid red;
-margin: 1rem;
+max-width: 35%;
+border: 1px solid #C5C6C7;
+padding: 2rem;
+margin: 1.5rem;
 max-width: 30%;
+border-radius: .5rem;
+justify-content: flex-start;
 
 `
 

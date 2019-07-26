@@ -6,6 +6,8 @@ import styled from "styled-components";
 const EpisodeGrid = styled.div`
 display: flex;
 flex-wrap: wrap;
+justify-content: space-between;
+align-content: space-around;
 
 `
 
@@ -26,7 +28,7 @@ export default function EpisodeList(){
         <section className="episode-list">
             <EpisodeGrid>
                 {episodes.map((episode)=>{
-                    return <EpisodeCard key={episode.id} name={episode.name} episode={episode.episode} airdate={episode.airdate}/>
+                    return <EpisodeCard key={episode.id} name={episode.name} episode={episode.episode} airdate={episode.air_date}/>
                 })
 
                 }

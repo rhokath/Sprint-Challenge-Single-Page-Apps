@@ -6,6 +6,8 @@ import styled from "styled-components";
 const LocationGrid = styled.div`
 display: flex;
 flex-wrap: wrap;
+justify-content: space-evenly;
+align-content: space-around;
 
 `
 

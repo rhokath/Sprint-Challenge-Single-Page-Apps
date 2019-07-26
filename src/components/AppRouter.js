@@ -10,8 +10,8 @@ export default function AppRouter() {
     <Switch>
       <Route path='/characters' component={CharacterList} />
       <Route path='/locations' component={LocationsList} />
-      <Route component={WelcomePage} />
-      <Route path='/episodes' compontent={EpisodeList}/>
+      <Route exact path='/' component={WelcomePage} />
+      <Route path='/episodes' component={EpisodeList}/>
     </Switch>
   </div>
 
